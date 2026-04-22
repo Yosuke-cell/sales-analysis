@@ -25,6 +25,7 @@ def main():
         print(high_value_orders)
         print("\n=== Analysis Completed Successfully ===")
         print("\n--- End of Report ---")
+        print("\n=====================")
 
     except FileNotFoundError:
         print("Error: sales.csv file not found. Make sure it is in the same folder.")
