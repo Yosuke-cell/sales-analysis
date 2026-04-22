@@ -24,6 +24,8 @@ def main():
         print("\n===== ORDERS WITH SALES > $200 =====")
         print(high_value_orders)
         print("\n=== Analysis Completed Successfully ===")
+        print("\n--- End of Report ---")
+
     except FileNotFoundError:
         print("Error: sales.csv file not found. Make sure it is in the same folder.")
     except Exception as e:
